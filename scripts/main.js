@@ -22,5 +22,7 @@ buttonAddItem.addEventListener('click', () => {
         // Add list item to list
         liItem.appendChild(buttonDelete);
         ulItems.appendChild(liItem);
+
+        inputAddItem.focus();
     }
 });
